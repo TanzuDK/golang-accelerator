@@ -7,7 +7,7 @@ spec:
   displayName: Golang-accelerator
   description: Clean Golang enviroment ready to code.
   git:
-    url: ssh://git@github.com:TanzuDK/golang-accelerator.git
+    url: ssh://git@github.com:/TanzuDK/golang-accelerator.git
     ref:
       branch: main
     secretRef:
