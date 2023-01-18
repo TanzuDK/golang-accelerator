@@ -44,10 +44,11 @@ engine:
   merge:
     - type: YTT
     - include:
-        - "app"
-        - "docs"
+        - "app/*"
+        - "docs/*"
         - "**/*.go"
         - "**/*.txt"
         - "**/*.sh"
         - "Procfile"
         - ".gitignore"
+        - "**/*.md"
