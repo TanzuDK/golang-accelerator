@@ -44,5 +44,7 @@ engine:
   merge:
     - type: YTT
     - include:
-        - "**/*.txt"
+        - "**/*.md"
         - "app/**"
+        - "docs/**"
+        - "procfile"
