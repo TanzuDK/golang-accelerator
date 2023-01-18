@@ -45,5 +45,4 @@ engine:
     - type: YTT
     - include:
         - "**/*.txt"
-    - exclude:
-        - "app/*"
+        - "app"
