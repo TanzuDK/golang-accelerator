@@ -44,12 +44,12 @@ engine:
   merge:
     - type: YTT
     - include:
-        - "docs/*"
-        - "**/*.go"
         - "**/*.txt"
-        - "**/*.sh"
-        - "Procfile"
-        - ".gitignore"
-        - "**/*.md"
+        - "**/*.yml"
+        - "**/*.yaml"
     - exclude:
         - "app"
+        - "docs"
+        - ".gitignore"
+        - "Procfile"
+        - "**/*.go"
