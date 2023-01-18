@@ -6,9 +6,15 @@ metadata:
   description: #@ data.values.description
   tags:
     - golang
+  links:
+    - url: https://go.dev
+      title: GoLang
+      icon: dashboard
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=golang-accelerator"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/part-of=golang-accelerator"
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: denmark-team
+  system: demo
