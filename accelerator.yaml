@@ -44,7 +44,9 @@ engine:
   merge:
     - type: YTT
     - include:
-        - "**/*.py"
+        - "app"
+        - "docs"
+        - "**/*.go"
         - "**/*.txt"
         - "**/*.sh"
         - "Procfile"
