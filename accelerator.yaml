@@ -45,4 +45,4 @@ engine:
     - type: YTT
     - include:
         - "**/*.txt"
-        - "app"
+        - "app/**"
