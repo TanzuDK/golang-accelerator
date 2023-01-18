@@ -45,9 +45,3 @@ engine:
     - type: YTT
     - include:
         - "**/*.txt"
-    - exclude:
-        - "app"
-        - "docs"
-        - ".gitignore"
-        - "Procfile"
-        - "**/*.go"
