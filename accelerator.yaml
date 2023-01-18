@@ -46,4 +46,4 @@ engine:
     - include:
         - "**/*.txt"
     - exclude:
-        - "app"
+        - "app/*"
