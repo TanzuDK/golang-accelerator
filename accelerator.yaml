@@ -49,3 +49,4 @@ engine:
         - "docs/**"
         - "procfile"
         - "Dockerfile"
+        - ".github/workflows/*"
