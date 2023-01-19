@@ -1,4 +1,3 @@
-#@ load("@ytt:data", "data")
 name: Publish TechDocs Site
 
 on:
@@ -22,7 +21,7 @@ jobs:
       AWS_REGION: ${{ secrets.AWS_REGION }}
       ENTITY_NAMESPACE: "default"
       ENTITY_KIND: "Component"
-      ENTITY_NAME: #@ data.values.projectName
+      ENTITY_NAME: "python-accelerator"
       # In a Software template, Scaffolder will replace {{cookiecutter.component_id | jsonify}}
       # with the correct entity name. This is same as metadata.name in the entity's catalog-info.yaml
       # ENTITY_NAME: '{{ cookiecutter.component_id | jsonify }}'
