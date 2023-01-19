@@ -1,4 +1,6 @@
-site_name: "Golang Accelerator"
+#@ load("@ytt:data", "data")
+
+site_name: #@ data.values.projectName
 
 nav:
   - The Application: index.md
