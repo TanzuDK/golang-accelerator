@@ -48,5 +48,4 @@ engine:
         - "app/**"
         - "docs/**"
         - "procfile"
-        - ".github/workflows/*"
         - "Dockerfile"
