@@ -11,9 +11,6 @@ metadata:
   annotations:
     autoscaling.knative.dev/minScale: #@ data.values.minscale
 spec:
-  params:
-    - name: dockerfile
-      value: ./Dockerfile
   source:
     git:
       url: #@ data.values.giturl
